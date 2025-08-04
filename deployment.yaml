@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: flask
-        image: hargun1955991532/flask-k8s-app
+        image: hargun1955991532/flask-k8s-app:v1
         ports:
         - containerPort: 5000
